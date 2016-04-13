@@ -7,17 +7,12 @@ DiscordCI is a bot client that delivers CI/CD information and messages to target
 To use this project you'll first need a couple of things:
   - Visual Studio 2015
 
-##Tests
+##How to Use
 
-#### Linux/Mono - Unit Tests
-||Debug x86|Debug x64|Release x86|Release x64|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|**master**| N/A | N/A | N/A | [![Build Status](https://travis-ci.org/HelloKitty/DiscordCI.svg?branch=master)](https://travis-ci.org/HelloKitty/DiscordCI) |
-|**dev**| N/A | N/A | N/A | [![Build Status](https://travis-ci.org/HelloKitty/DiscordCI.svg?branch=dev)](https://travis-ci.org/HelloKitty/DiscordCI)|
+1. Create a Discord bot account and find a server/channel to report CI information to
 
-#### Windows - Unit Tests
-
-(Done locally)
+2. Generate DiscordCI.Application from the solution and execute it with the following parameters:
+[EMAIL] [PASSWORD] [SERVERID] [CHANNELID] [URL] [COMMITHASH] [BRANCHNAME] [REPOSLUG]
 
 ##Licensing
 
