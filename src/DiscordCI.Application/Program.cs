@@ -57,7 +57,7 @@ namespace DiscordCI.Application
 					while (client.MessageQueue.Count != 0) Thread.Sleep(100);
 				});
 
-				client.Disconnect();
+				await client.Disconnect();
 			});
 		}
 

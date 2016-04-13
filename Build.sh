@@ -1,0 +1,1 @@
+xbuild ./DiscordCI.Application.sln /p:DebugSymbols=False
